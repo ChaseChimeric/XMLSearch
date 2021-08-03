@@ -11,12 +11,15 @@ void Extract(string, string, ifstream&);
 int main()
 {
 	string textDat;
-	string searchtxt = "contact_name";
+	string searchtxt;
+	string filename;
 	
+	cout << "Enter file location: ";
+	getline(cin, filename);
 	cout << "Enter term to search: ";
 	getline(cin, searchtxt);
 
-	ifstream inFile("/home/chasechimeric/Downloads/signalbackup-tools/yeet.xml");
+	ifstream inFile(filename);
 
 	Extract(textDat, searchtxt, inFile);
 
