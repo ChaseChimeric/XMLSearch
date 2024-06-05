@@ -1,5 +1,5 @@
 # XMLSearch
-Simple search funciton for XML information
+Simple search function for XML information
 
 created for me, probably won't work for any other applicaiton.
 
